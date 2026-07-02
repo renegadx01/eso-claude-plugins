@@ -1,0 +1,6 @@
+[
+  {"id": "alpha-permit", "project": "Project Alpha", "label": "Permit set", "date": "2026-07-13", "status": "open", "key": true, "completed_on": null, "slips": []},
+  {"id": "beta-county", "project": "Project Beta", "label": "Submit to county", "date": "2026-06-15", "status": "open", "key": false, "completed_on": null, "slips": []},
+  {"id": "gamma-sd", "project": "Project Gamma", "label": "SD on-site mtg", "date": "2026-06-25", "status": "open", "key": false, "completed_on": null, "slips": [{"from": "2026-06-18", "to": "2026-06-25", "recorded_on": "2026-06-12"}]},
+  {"id": "tooling-rollout", "project": "Internal Tooling", "label": "Team rollout", "date": "2026-06-15", "status": "open", "key": true, "completed_on": null, "slips": []}
+]
