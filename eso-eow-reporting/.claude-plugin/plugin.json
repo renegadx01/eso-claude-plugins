@@ -1,0 +1,9 @@
+{
+  "name": "eso-eow-reporting",
+  "description": "Produce ĒSO / Point B Design Group End-of-Week reports — both the individual EOW report and the consolidated MKW Rollup for the principal.",
+  "version": "14.0.0",
+  "author": {
+    "name": "Peter Hall",
+    "email": "peter@eso-arch.com"
+  }
+}
