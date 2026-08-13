@@ -1,0 +1,21 @@
+# Secrets — never commit
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs
+streamlit.log
+*.log
+
+# Commercial fonts (Mabry Pro — Colophon Foundry license, not for redistribution)
+# Obtain your own copy from colophon-foundry.org and place in static/fonts/
+static/fonts/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*~

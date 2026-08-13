@@ -1,0 +1,35 @@
+# ĒSO brand theme — colors and type from the ĒSO Brand Guide (Winter 2026).
+# Laser (#e9ff14) is deliberately not used here as a base UI color — the
+# brand guide treats it as a sparing accent, not a workhorse color. It shows
+# up instead as the small accent rule under page titles (see lib/branding.py).
+
+[theme]
+base = "light"
+primaryColor = "#214144"          # Midnight — buttons, interactive controls
+backgroundColor = "#f9f7f4"       # Bone — main content area
+secondaryBackgroundColor = "#edeae2"  # Pearl — sidebar & widget backgrounds
+textColor = "#214144"             # Midnight
+font = "Mabry Pro"
+
+[[theme.fontFaces]]
+family = "Mabry Pro"
+url = "app/static/fonts/MabryPro-Light.ttf"
+weight = 300
+
+[[theme.fontFaces]]
+family = "Mabry Pro"
+url = "app/static/fonts/MabryPro-Regular.ttf"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Mabry Pro"
+url = "app/static/fonts/MabryPro-Medium.ttf"
+weight = 500
+
+[[theme.fontFaces]]
+family = "Mabry Pro"
+url = "app/static/fonts/MabryPro-Black.ttf"
+weight = 900
+
+[server]
+enableStaticServing = true
